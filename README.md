@@ -59,11 +59,11 @@ An application to store all the contact information
 ---
 
 ### Implementation details
-#### 1. There will be an admin login so as to access the contact information.
+#### 1. There will be an admin login page so as to access the contact information.
 #### 2. There will be 4 ReST APIs:
-* get_contact_info - Get Contact Details
-* update_contact_info - Update existing Contact details
-* delete_contact_info - Delete existing contact details
-* create_new_contact - Creating new contact.
+* get_contact_info - To get Contact Details
+* update_contact_info - To update existing Contact details
+* delete_contact_info - To delete existing contact details
+* create_new_contact - To create new contact.
 
 #### 3. The contact information will be stored in Postgres SQL database and also in MongoDB for quick reference.
